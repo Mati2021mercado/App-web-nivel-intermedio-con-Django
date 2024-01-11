@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-d9v$l==rmmfb#3#xl7avyz2(!o!20!l2%n5z9m8nl$*i-*1g66'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -154,5 +154,5 @@ CKEDITOR_CONFIGS = {
 #emailconfig
 EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
 EMAIL_HOST_USER = '1868a19269e848'
-EMAIL_HOST_PASSWORD = '0093e2590275b3'
+EMAIL_HOST_PASSWORD = ''
 EMAIL_PORT = '2525'
